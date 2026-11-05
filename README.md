@@ -37,7 +37,7 @@
    ```
 
 4. **Konfigurasi Database**:
-   Nyalakan **MySQL** di XAMPP, buat database baru bernama `kostpay_db`, lalu jalankan:
+   Nyalakan **MySQL** di XAMPP atau laragon, buat database baru bernama `kostpay_db`, lalu jalankan:
    ```bash
    php artisan migrate
    ```
