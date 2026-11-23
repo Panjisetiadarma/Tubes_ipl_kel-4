@@ -6,8 +6,10 @@
 
 ## 👥 Tim Pengembang (Kelompok 4)
 * **Panji Setiadarma** (NIM: 2450081087)
-* *Rekan Kelompok 4*
-
+*** **Siti Aulia** (Nim: 2450081083)
+* **Naila Putri** (Nim: 2450081084)
+* **Khansa Humaira** (Nim: 2450081071)
+* **Insan Najib** (Nim: 2450081076)
 ---
 
 ## 📖 Dokumentasi Penting Proyek
