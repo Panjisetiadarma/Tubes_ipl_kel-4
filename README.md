@@ -6,11 +6,14 @@
 
 ## 👥 Tim Pengembang (Kelompok 4)
 * **Panji Setiadarma** (NIM: 2450081087)
-* *Rekan Kelompok 4*
-
+*** **Siti Aulia** (Nim: 2450081083)
+* **Naila Putri** (Nim: 2450081084)
+* **Khansa Humaira** (Nim: 2450081071)
+* **Insan Najib** (Nim: 2450081076)
 ---
 
 ## 📖 Dokumentasi Penting Proyek
+* 🗄️ **[Rincian Struktur & Skema Basis Data](STRUKTUR_DATABASE.md)** — Rincian lengkap kolom, tipe data, constraint, dan ERD tabel.
 * 📘 **[Panduan Penggunaan Laravel Migration](PANDUAN_MIGRATION.md)** — Wajib dibaca sebelum memodifikasi skema tabel basis data.
 * 🤖 **[Panduan & Guardrails untuk AI Coding Agent](AGENT_INSTRUCTIONS.md)** — Konteks bisnis, batasan fitur, dan panduan arsitektur (SRS & SDD) agar AI Agent (Cursor, Windsurf, Copilot, Cline, Claude Code) tidak halusinasi atau melenceng dari topik utama.
 
