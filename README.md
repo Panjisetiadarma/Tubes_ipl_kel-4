@@ -1,6 +1,6 @@
-# 🚀 Tubes IPL Kelompok 4 — KostPay
+# 🚀 Tubes IPL Kelompok 4 — koStay
 
-**KostPay** adalah Web Application Sistem Informasi Manajemen dan Pembayaran Kost Pondok Khasanah yang dikembangkan untuk memenuhi Tugas Besar mata kuliah **Implementasi Perangkat Lunak (IPL)** - Program Studi Informatika, Universitas Jenderal Achmad Yani.
+**koStay** adalah Web Application Sistem Informasi Manajemen dan Pembayaran Kost yang dikembangkan untuk memenuhi Tugas Besar mata kuliah **Implementasi Perangkat Lunak (IPL)** - Program Studi Informatika, Universitas Jenderal Achmad Yani.
 
 ---
 
@@ -40,9 +40,9 @@
    ```
 
 4. **Konfigurasi Database**:
-   Nyalakan **MySQL** di XAMPP atau laragon, buat database baru bernama `kostpay_db`, lalu jalankan:
+   Nyalakan **MySQL** di XAMPP atau laragon, buat database baru bernama `kostay_db`, lalu jalankan:
    ```bash
-   php artisan migrate
+   php artisan migrate:fresh --seed
    ```
 
 5. **Jalankan Development Server**:

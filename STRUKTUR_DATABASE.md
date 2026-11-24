@@ -1,6 +1,6 @@
-# 🗄️ Dokumentasi Struktur Basis Data — KostPay
+# 🗄️ Dokumentasi Struktur Basis Data — koStay
 
-Dokumen ini memuat spesifikasi teknis lengkap mengenai skema basis data, rincian kolom, tipe data, *constraint* (batasan), serta relasi antar tabel untuk aplikasi **KostPay (Sistem Informasi Manajemen dan Pembayaran Kost Pondok Khasanah)**.
+Dokumen ini memuat spesifikasi teknis lengkap mengenai skema basis data, rincian kolom, tipe data, *constraint* (batasan), serta relasi antar tabel untuk aplikasi **koStay (Sistem Informasi Manajemen dan Pembayaran Kost)**.
 
 Dokumen ini menjadi acuan utama bagi **Database Engineer / Tim Pengembang** dalam menyusun file Laravel Migration dan Model Eloquent.
 
@@ -125,7 +125,7 @@ Menyimpan master data fisik kamar kost, jenis tipe kamar, harga sewa bulanan, fa
 | :--- | :--- | :--- | :--- |
 | `id` | `BIGINT UNSIGNED` | Primary Key, Auto Increment | Identifikator unik kamar |
 | `room_number` | `VARCHAR(10)` | NOT NULL, UNIQUE | Nomor/kode kamar unik (misal: "A01", "B02") |
-| `room_type` | `ENUM('Standar', 'VIP', 'VVIP')` | NOT NULL | Kategori / tipe kamar |
+| `room_type` | `ENUM('Standar', 'Eksklusif')` | NOT NULL | Kategori kamar (Pembeda: AC & Water Heater) |
 | `monthly_price` | `DECIMAL(12, 2)` | NOT NULL | Tarif sewa per bulan (contoh: `1500000.00`) |
 | `status` | `ENUM('Tersedia', 'Terisi', 'Perbaikan')` | NOT NULL, DEFAULT: `'Tersedia'` | Status operasional kamar |
 | `facilities` | `TEXT` | NULLABLE | Daftar rincian fasilitas (AC, WiFi, Kasur, dll.) |

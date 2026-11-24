@@ -1,6 +1,6 @@
-# 📘 Panduan Penggunaan Laravel Migration — KostPay (Tubes IPL Kelompok 4)
+# 📘 Panduan Penggunaan Laravel Migration — koStay (Tubes IPL Kelompok 4)
 
-Dokumen ini memuat panduan lengkap cara kerja, alur penggunaan, serta perintah-perintah penting `php artisan migrate` dalam proyek **KostPay (Sistem Manajemen & Pembayaran Kost Pondok Khasanah)**.
+Dokumen ini memuat panduan lengkap cara kerja, alur penggunaan, serta perintah-perintah penting `php artisan migrate` dalam proyek **koStay (Sistem Manajemen & Pembayaran Kost)**.
 
 ---
 
@@ -15,7 +15,7 @@ Migration adalah **version control untuk database**. Migration memungkinkan selu
 1. **Pastikan MySQL Aktif**: Buka **XAMPP Control Panel**, lalu klik **Start** pada modul **MySQL** (dan Apache jika diperlukan).
 2. **Buat Database**: Buka `http://localhost/phpmyadmin`, buat database baru bernama:
    ```sql
-   kostpay_db
+   kostay_db
    ```
 3. **Cek Konfigurasi `.env`**:
    Buka file `.env` di root proyek, pastikan parameternya sesuai:
@@ -23,7 +23,7 @@ Migration adalah **version control untuk database**. Migration memungkinkan selu
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
-   DB_DATABASE=kostpay_db
+   DB_DATABASE=kostay_db
    DB_USERNAME=root
    DB_PASSWORD=
    ```

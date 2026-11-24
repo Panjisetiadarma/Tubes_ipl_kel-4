@@ -2,14 +2,14 @@
 
 > **ATTENTION AI AGENTS (Cursor, GitHub Copilot, Windsurf, Claude Code, Cline, Aider, Hermes, etc.):**  
 > Read this document completely BEFORE proposing, generating, or modifying any code in this repository.  
-> You must strictly adhere to the project scope, business requirements, and architectural design specified in the **SRS** (*Software Requirements Specification*) and **SDD** (*Software Design Description*) of **KostPay**.
+> You must strictly adhere to the project scope, business requirements, and architectural design specified in the **SRS** (*Software Requirements Specification*) and **SDD** (*Software Design Description*) of **koStay**.
 
 ---
 
 ## 🎯 1. Project Overview & Primary Goals
 
-* **Project Name**: **KostPay** (Tubes Implementasi Perangkat Lunak - Kelompok 4)
-* **Application Domain**: Sistem Informasi Manajemen dan Pembayaran Kost Pondok Khasanah berbasis Web.
+* **Project Name**: **koStay** (Tubes Implementasi Perangkat Lunak - Kelompok 4)
+* **Application Domain**: Sistem Informasi Manajemen dan Pembayaran Kost (koStay) berbasis Web.
 * **Core Problem Statement**: 
   1. Pengelolaan data kamar, penghuni, dan kontrak sewa yang sebelumnya manual / tersebar.
   2. Pencatatan transaksi tagihan sewa bulanan dan pembayaran yang belum terintegrasi.
